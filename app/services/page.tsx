@@ -1,29 +1,12 @@
-// const ServicesPage =()=>{
-    //     return (
-    //             <div>This is Services page</div>
-    //     )
-    // }
-    // export default ServicesPage
-    
-   /* import React from 'react'
-    
-    function page() {
-      return (
-        <div>
-          
-        </div>
-      )
-    }
-    
-    export default page*/
-    // pages/services/index.js
 import Link from 'next/link';
 
 export default function Services() {
-    return (
-        <h1 style={{backgroundColor:"yellow"}}>
-            SERVICE PAGE
-        </h1>
-    );
-}
-    
+  return (
+    <div>
+      <h1 style={{backgroundColor:"green"}}> Services</h1>
+      <ul>
+        <li><Link style={{backgroundColor:"blue"}} href="/services/Service1">service 1</Link> </li>
+      </ul>
+    </div>
+  );
+};
